@@ -1,0 +1,15 @@
+Problem Idea 2: Music Playlist Manager
+
+A music player maintains a playlist where songs are played in the same order they are added. Implement the playlist using STL Queue.
+
+The program should support the following operations:
+
+1. ADD song_name – Add a new song to the playlist.
+2. PLAY – Play and remove the song at the front of the playlist.
+3. CURRENT – Display the next song that will be played.
+4. SHOW_PLAYLIST – Display all songs currently waiting in the playlist.
+5. TOTAL – Display the total number of songs in the playlist.
+
+If the playlist is empty and the user tries to play or view a song, display an appropriate message.
+
+The program should continue until the user chooses to exit.

@@ -1,0 +1,15 @@
+Problem Idea 1: Movie Ticket Counter Queue
+
+A movie theater sells tickets through a single ticket counter. Customers arrive and stand in a queue following the First-In-First-Out (FIFO) principle.
+
+Design a program using STL Queue that supports the following operations:
+
+1. JOIN name – Add a customer to the end of the queue.
+2. SERVE – Remove and display the customer at the front of the queue.
+3. NEXT – Display the name of the customer who will be served next.
+4. COUNT – Display the total number of customers currently waiting.
+5. DISPLAY – Show all customers in the queue from front to rear.
+
+If the queue is empty and the user tries to serve or view the next customer, display an appropriate message.
+
+The program should continue taking operations until the user chooses to exit.
